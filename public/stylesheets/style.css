@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #43766C;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  position: relative; /* Change to relative */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 10%;
+  background-color: #43766C;
+
+  /* background-color: #F8FAE5; */
+  color: #000;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.0);
+}
+
+ul {
+  margin: 1px auto; /* Center the ul and remove the left and right margins */
+  padding: 10px 20px; /* Adjust padding */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+ul > li:first-child {
+  margin-left: 130px;
+}
+
+li {
+  margin: 15px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+a {
+  /* color: #76453B; */
+  color:#000;
+  text-decoration: none;
+}
+
+#logo {
+  padding: 20px 40px;
+  font-size: 1.5em;
+  font-weight: 900;
+  font-family: 'SF Pro'; /* Add quotes around font name */
+}
+
+button {
+  /* background-color: #76453B; */
+  margin: auto 10px;
+  font-size: 13px;
+  border-radius: 10px;
+  width: 7%;
+  height: 40px;
+  
+  font-weight: 600;
+}
+#signup{
+  background-color: #F8FAE5;
+}
+
+#login {
+  background-color: #F8FAE5;
+  margin-right: 20px; /* Adjust margin */
+}
+
+img{
+  mix-blend-mode:multiply;
+  position: absolute;
+  bottom: 0px;
+}
+
+#girl{
+  left: 0;
+}
+
+#boy{
+  right: 0;
+}
+
+#title{
+  position: absolute;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 900;
+  font-size: 4em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Long Cang';
+
+}
+#caption{
+  position: absolute;
+  font-family: 'Long Cang';
+  top: 60%;
+  left: 50%;
+  font-size: 1.6em;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 900;
+}
+
+#bottombutt{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #F8FAE5;
+}
+
+
+#centerbox{
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
+  background-color: #F8FAE5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+#leftbox{
+  
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 20px;
+
+}
+
+#rightbox{
+  border-left: 5px dotted black;
+  width: 60%;
+  height: 100%;
+  border-top-right-radius: 20px;
+}
+
+#leftimg{
+  height: 90%;
+  left: 3%;
+}
+
+#rightbox .signlogo {
+  position: relative;
+  left: 35%;
+  top: 10%;
+  font-size: 2em;
+  transform: translateX(-50%);
+  font-family: 'SF Pro';
+}
+
+#signupform{
+  position: relative;
+  top: 10%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Long Cang';
+  font-weight: 900;
+
+ 
+}
+
+label {
+  font-size: 1.4em;
+  font-weight: 300;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#signupfinal{
+  position: relative;
+  margin-top: 10px;
+  width: 100px;
+  left: 11%;
+  transform: translateX(-50%);
+  font-family: 'Long Cang';
+  font-size: 1.2em;
+  padding-right: 30px;
+}
+
+#leftimgboy{
+  transform: scaleX(-1);
+  height: 90%;
+  left: 2%;
+}
+
+#loginform{
+  position: relative;
+  top: 20%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: 'Long Cang';
+  font-weight: 900;
+}
+
+.error{
+  font-weight: 500;
+  color: red;
+  text-transform: capitalize;
+  margin: 7px 0;
+  font-size: 18px;
+}

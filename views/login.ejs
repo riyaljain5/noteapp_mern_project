@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+<body>
+    <div id="centerbox">
+        <div id="leftbox">
+            <img src="/images/boy1.png" id="leftimgboy">
+        </div>
+        <div id="rightbox">
+            <span id="logo" class="signlogo">LogIn</span>
+            
+            <form id="loginform" action="/login" method="POST"> 
+                <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" id="signupfinal" value="LogIn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

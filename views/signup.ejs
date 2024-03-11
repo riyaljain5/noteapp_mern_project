@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="centerbox">
+        <div id="leftbox">
+            <img src="/images/girl1.png" id="leftimg">
+        </div>
+        <div id="rightbox">
+            <span id="logo" class="signlogo">SignUp</span>
+
+            <form id="signupform" action="/signup" method="post">
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="username" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+        
+                <input type="submit" id="signupfinal" value="SignUp" >
+            </form>
+        </div>
+    </div>
+</body>
+</html>
